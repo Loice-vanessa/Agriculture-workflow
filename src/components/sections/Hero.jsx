@@ -1,6 +1,6 @@
 import Button from "../Button.jsx";
 
-const Hero = () => {
+const   homePage = () => {
     return (
         <section id="hero" className="h-[898px]">
             <div className="container mx-auto px-[32px] xl:px-16 h-full">
@@ -18,4 +18,4 @@ const Hero = () => {
     )
 }
 
-export default Hero;
+export default homePage;
