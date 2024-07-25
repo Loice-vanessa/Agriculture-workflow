@@ -67,7 +67,7 @@ const NavBar = () => {
                         className="mt-6 flex md:hidden items-center jus border border-gray rounded-[33px] space-x-2 p-[4px] pr-[20px]">
                         <Link to={""}
                             className="h-[56px] w-[56px] bg-darkGreen rounded-full flex items-center justify-center text-neutral">
-                            <Cart size={18} /> {/* Reduced size */}
+                            <Cart size={21} />
                         </Link>
                         <span className="font-bold text-[18px]">Cart (0)</span>
                     </div>
@@ -103,7 +103,7 @@ const NavBar = () => {
                                 className="hidden md:flex items-center border border-gray rounded-[33px] space-x-2 p-[4px] pr-[20px]">
                                 <Link to={""}
                                     className="h-[56px] w-[56px] bg-darkGreen rounded-full flex items-center justify-center text-neutral">
-                                    <Cart size={18} /> {/* Reduced size */}
+                                    <Cart size={21} />
                                 </Link>
                                 <span className="font-bold text-[18px]">Cart (0)</span>
                             </div>

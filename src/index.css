@@ -18,10 +18,9 @@ nav ul li:not(:last-child) {
 
 #hero {
     background-image: url("./assets/img/hero.png");
-    background-size:cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-
+    background-size: contain;
+    background-position: center;
+    
 }
 
 .content {
